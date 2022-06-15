@@ -1,2 +1,5 @@
 # A-simple-calculator
-A task. Create a simple calculator with the simplest interface.
+
+Create a simple calculator with the simplest interface.
+Figma Project link:
+https://www.figma.com/file/uMpMZ2zBRzq1YdA5nwhc12/Simple_calculator?node-id=0%3A1
