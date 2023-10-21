@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple calculator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Suez+One&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Nunito+Sans:wght@200&family=Suez+One&display=swap" rel="stylesheet">    
-<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Suez+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Nunito+Sans:wght@200&family=Suez+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="wrapper">
-    <header>
-        <h1>A simple calculator of numbers</h1>
-    </header>
-    <main class="simple-calculator">
-    <div class="one-line">
-        <div id="number1" class="input-block">
-            <label for="number1">the first digit</label>
-            <input class="input-num" type="number" id="numOne" value="6">
-        </div>
-        <div id="number2" class="input-block">
-            <label for="number2">the second digit</label>
-            <input class="input-num" type="number" id="numSecond" value="2">
-        </div>
+        <header>
+            <h1>A simple calculator of numbers</h1>
+        </header>
+        <main class="simple-calculator">
+            <div class="one-line">
+                <div id="number1" class="input-block">
+                    <label for="number1">The first digit</label>
+                    <input class="input-num" type="number" id="numOne" value="6">
+                </div>
+                <div id="number2" class="input-block">
+                    <label for="number2">The second digit</label>
+                    <input class="input-num" type="number" id="numSecond" value="2">
+                </div>
+            </div>
+            <div class="operationsBlock">
+                <div class="textoperations title">Operation sign</div>
+                <div class="button-wrapper">
+                    <button id="buttonPlus" class="operations"> + </button>
+                    <button id="buttonMinus" class="operations"> - </button>
+                    <button id="buttonMyltiplay" class="operations"> * </button>
+                    <button id="buttonDevide" class="operations"> / </button>
+                </div>
+            </div>
+            <div class="resultBlock">
+                <div class="textResult title">Result</div>
+                <p class="result" id="result"></p>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright © 2023 OxY. All Rights Reserved.
+            </p>
+        </footer>
     </div>
-        <div class="operationsBlock">
-            <div class="textoperations title">operation sign</div>
-            <div class="button-wrapper">
-            <button id="buttonPlus" class="operations"> + </button>
-            <button id="buttonMinus" class="operations"> - </button>
-            <button id="buttonMyltiplay" class="operations"> * </button>
-            <button id="buttonDevide" class="operations"> / </button>
-        </div>
-        </div>
-        <div class="resultBlock">
-            <div class="textResult title">equally</div>
-            <p class="result" id="result"></p>
-        </div>
-    </main>
-    <footer>
-        <p>Copyright © 2022  OxY623. All Rights Reserved.
-        </p>
-    </footer>
-</div>
+    <script src="index.js"></script>
 </body>
-<script src="index.js"></script>
+
 </html>
